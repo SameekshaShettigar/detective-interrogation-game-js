@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Detective Interrogation Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🕵️ Detective Interrogation Game</h1>
+
+  <div id="suspects"></div>
+
+  <div id="interrogation">
+    <h2 id="suspectName"></h2>
+    <p id="response"></p>
+
+    <button onclick="askQuestion(0)">Where were you last night?</button>
+    <button onclick="askQuestion(1)">Do you know the victim?</button>
+    <button onclick="askQuestion(2)">Why should I trust you?</button>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
